@@ -5,13 +5,16 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "build": "^0.1.4",
+    "export": "^0.1.337",
     "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

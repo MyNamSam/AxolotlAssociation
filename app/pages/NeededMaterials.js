@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function NeededMaterials() {
@@ -9,15 +10,25 @@ export default function NeededMaterials() {
         <p className="text-gray-800 mb-2">
           Axolotls require specialized equipment and supplies for proper care
           and conservation. Having the proper tools guarantees the safety and
-          wellbeing of these unusual animals, whether you're establishing an
+          wellbeing of these unusual animals, whether you&apos;re establishing an
           axolotl habitat or supporting conservation initiatives.
         </p>
       </section>
-      <img
-          src="https://images.pexels.com/photos/8837942/pexels-photo-8837942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="Axolotl_Header"
-          className="w-96 flex m-auto h-auto pt-2 pb-2"
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "4px",
+        }}
+      >
+        <Image
+          src="/pexels-photo-8837942.jpeg"
+          alt="Axolotl_Aquarium"
+          width={400}
+          height={100}
         />
+      </div>
       <section>
         <h3 className="text-xl underline ml-1">Habitat Setup</h3>
         <ul className="text-gray-800 mb-2">
@@ -27,7 +38,7 @@ export default function NeededMaterials() {
           </li>
           <li>
             <strong>- Filtration System:</strong> A gentle filter to maintain
-            the water's purity without producing significant currents.
+            the water&apos;s purity without producing significant currents.
           </li>
           <li>
             <strong>- Substrate:</strong> Use bare-bottom or fine sand to
@@ -47,8 +58,8 @@ export default function NeededMaterials() {
             essential food.
           </li>
           <li>
-            <strong>- Live Food:</strong> For extra nutrition, try brine
-            shrimp, earthworms, or bloodworms.
+            <strong>- Live Food:</strong> For extra nutrition, try brine shrimp,
+            earthworms, or bloodworms.
           </li>
           <li>
             <strong>- Frozen Food:</strong> Frozen bloodworms that are both
@@ -60,7 +71,7 @@ export default function NeededMaterials() {
         <h3 className="text-xl underline ml-1">Maintenance Tools</h3>
         <ul className="text-gray-800 mb-2">
           <li>
-            <strong>- Water Test Kit:</strong> Always keep an eye on water's pH,
+            <strong>- Water Test Kit:</strong> Always keep an eye on water&apos;s pH,
             ammonia, and nitrate levels.
           </li>
           <li>

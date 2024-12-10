@@ -35,7 +35,7 @@ export default function Facts() {
         A paedomorphic salamander, the axolotl (Ambystoma mexicanum) is aquatic
         and gilled all its life. It does not change form like other salamanders
         do, and it keeps its juvenile traits until adulthood. Located in Mexico
-        City's Xochimilco Lake, axolotls are a severely endangered species. They
+        City&apos;s Xochimilco Lake, axolotls are a severely endangered species. They
         can have a variety of colors and feature a long tail, flat head, and
         limbs that resemble lizards. Here are some more interesting facts about
         these amazing amphibians:

@@ -4,6 +4,7 @@ import { useState } from "react";
 import About from "./pages/About";
 import NeededMaterials from "./pages/NeededMaterials";
 import Facts from "./pages/Facts";
+import Image from "next/image";
 
 export default function Page() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -27,11 +28,20 @@ export default function Page() {
         <h1 className="font-bold text-5xl text-pink-400 text-center pt-2 mb-2">
           Axolotl Association
         </h1>
-        <img
-          src="https://images.pexels.com/photos/2168831/pexels-photo-2168831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="Axolotl_Header"
-          className="w-96 flex m-auto h-auto"
-        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Image
+            src="/pexels-photo-2168831.jpeg"
+            alt="Axolotl_Header"
+            width={400}
+            height={100}
+          />
+        </div>
 
         <nav className="text-teal-300 flex justify-center p-1 mt-1">
           <button
